@@ -223,6 +223,12 @@
   .w-9\/10 {
     width: calc(9/10 * 100%);
   }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+  .w-10\/10 {
+    width: calc(10/10 * 100%);
+  }
   .w-\[90\%\] {
     width: 90%;
   }
@@ -262,11 +268,17 @@
   .justify-between {
     justify-content: space-between;
   }
+  .justify-center {
+    justify-content: center;
+  }
   .justify-evenly {
     justify-content: space-evenly;
   }
   .gap-\[0px\] {
     gap: 0px;
+  }
+  .gap-\[3\] {
+    gap: 3;
   }
   .gap-\[10px\] {
     gap: 10px;
@@ -321,6 +333,12 @@
   .bg-\[\#F5F3EE\] {
     background-color: #F5F3EE;
   }
+  .bg-\[\#F9F8F5\] {
+    background-color: #F9F8F5;
+  }
+  .bg-\[white\] {
+    background-color: white;
+  }
   .bg-\[yellow\] {
     background-color: yellow;
   }
@@ -363,8 +381,14 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
   .text-\[34px\] {
     font-size: 34px;
+  }
+  .text-\[35px\] {
+    font-size: 35px;
   }
   .leading-\[1\.2\] {
     --tw-leading: 1.2;
@@ -378,8 +402,20 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-\[\#\#002203\] {
+    color: ##002203;
+  }
   .text-\[\#211F54\] {
     color: #211F54;
+  }
+  .text-\[\#423F35\] {
+    color: #423F35;
+  }
+  .text-\[\#00780C\] {
+    color: #00780C;
+  }
+  .text-\[\#002203\] {
+    color: #002203;
   }
   .text-\[\#505038\] {
     color: #505038;
@@ -402,6 +438,11 @@
   .lg\:mt-\[80px\] {
     @media (width >= 64rem) {
       margin-top: 80px;
+    }
+  }
+  .lg\:mt-\[100px\] {
+    @media (width >= 64rem) {
+      margin-top: 100px;
     }
   }
   .lg\:ml-auto {
@@ -489,9 +530,19 @@
       align-items: flex-start;
     }
   }
+  .lg\:justify-around {
+    @media (width >= 64rem) {
+      justify-content: space-around;
+    }
+  }
   .lg\:justify-end {
     @media (width >= 64rem) {
       justify-content: flex-end;
+    }
+  }
+  .lg\:justify-start {
+    @media (width >= 64rem) {
+      justify-content: flex-start;
     }
   }
   .lg\:gap-0 {
@@ -524,9 +575,19 @@
       gap: 35px;
     }
   }
+  .lg\:gap-\[40px\] {
+    @media (width >= 64rem) {
+      gap: 40px;
+    }
+  }
   .lg\:gap-\[50px\] {
     @media (width >= 64rem) {
       gap: 50px;
+    }
+  }
+  .lg\:gap-\[px\] {
+    @media (width >= 64rem) {
+      gap: px;
     }
   }
   .lg\:p-\[20px\] {
