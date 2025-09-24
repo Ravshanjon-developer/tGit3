@@ -168,6 +168,12 @@
   .m-auto {
     margin: auto;
   }
+  .mt-\[-40px\] {
+    margin-top: -40px;
+  }
+  .mt-\[-\] {
+    margin-top: -;
+  }
   .mt-\[50px\] {
     margin-top: 50px;
   }
@@ -200,6 +206,21 @@
   }
   .h-\[75px\] {
     height: 75px;
+  }
+  .h-\[160px\] {
+    height: 160px;
+  }
+  .h-\[190px\] {
+    height: 190px;
+  }
+  .h-\[200px\] {
+    height: 200px;
+  }
+  .h-\[210px\] {
+    height: 210px;
+  }
+  .h-\[250px\] {
+    height: 250px;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
@@ -234,14 +255,44 @@
   .w-10\/10 {
     width: calc(10/10 * 100%);
   }
+  .w-\[0\%\] {
+    width: 0%;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-\[90\%\] {
     width: 90%;
+  }
+  .w-\[95\%\] {
+    width: 95%;
   }
   .w-\[100\%\] {
     width: 100%;
   }
+  .w-\[110\%\] {
+    width: 110%;
+  }
+  .w-\[150\%\] {
+    width: 150%;
+  }
+  .w-\[270p\] {
+    width: 270p;
+  }
+  .w-\[270px\] {
+    width: 270px;
+  }
+  .w-\[300px\] {
+    width: 300px;
+  }
   .w-\[311px\] {
     width: 311px;
+  }
+  .w-\[320px\] {
+    width: 320px;
+  }
+  .w-\[350px\] {
+    width: 350px;
   }
   .flex-none {
     flex: none;
@@ -312,6 +363,9 @@
   .rounded-\[8px\] {
     border-radius: 8px;
   }
+  .rounded-\[16px\] {
+    border-radius: 16px;
+  }
   .rounded-\[88px\] {
     border-radius: 88px;
   }
@@ -335,6 +389,12 @@
   .bg-\[\#00780C\] {
     background-color: #00780C;
   }
+  .bg-\[\#191610\] {
+    background-color: #191610;
+  }
+  .bg-\[\#EFFDD4\] {
+    background-color: #EFFDD4;
+  }
   .bg-\[\#F5F3EE\] {
     background-color: #F5F3EE;
   }
@@ -356,20 +416,44 @@
   .p-\[20px\] {
     padding: 20px;
   }
+  .p-\[30px\] {
+    padding: 30px;
+  }
   .p-\[50px\] {
     padding: 50px;
+  }
+  .p-\[100px\] {
+    padding: 100px;
+  }
+  .px-\[20\%\] {
+    padding-inline: 20%;
   }
   .px-\[20px\] {
     padding-inline: 20px;
   }
+  .px-\[30px\] {
+    padding-inline: 30px;
+  }
   .px-\[40px\] {
     padding-inline: 40px;
+  }
+  .px-\[100px\] {
+    padding-inline: 100px;
   }
   .py-\[50px\] {
     padding-block: 50px;
   }
+  .py-\[100px\] {
+    padding-block: 100px;
+  }
   .text-center {
     text-align: center;
+  }
+  .text-start {
+    text-align: start;
+  }
+  .text-\[1px\] {
+    font-size: 1px;
   }
   .text-\[15px\] {
     font-size: 15px;
@@ -386,6 +470,9 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
   .text-\[30px\] {
     font-size: 30px;
   }
@@ -394,6 +481,9 @@
   }
   .text-\[35px\] {
     font-size: 35px;
+  }
+  .text-\[45px\] {
+    font-size: 45px;
   }
   .leading-\[1\.2\] {
     --tw-leading: 1.2;
@@ -410,6 +500,9 @@
   .text-\[\#\#002203\] {
     color: ##002203;
   }
+  .text-\[\#0E6400\] {
+    color: #0E6400;
+  }
   .text-\[\#211F54\] {
     color: #211F54;
   }
@@ -424,6 +517,15 @@
   }
   .text-\[\#505038\] {
     color: #505038;
+  }
+  .text-\[\#DAD5C6\] {
+    color: #DAD5C6;
+  }
+  .text-\[px\] {
+    color: px;
+  }
+  .text-\[white\] {
+    color: white;
   }
   .text-white {
     color: var(--color-white);
@@ -443,6 +545,16 @@
   .lg\:m-0 {
     @media (width >= 64rem) {
       margin: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:mt-0 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:mt-\[-40px\] {
+    @media (width >= 64rem) {
+      margin-top: -40px;
     }
   }
   .lg\:mt-\[80px\] {
@@ -513,6 +625,11 @@
   .lg\:w-9\/10 {
     @media (width >= 64rem) {
       width: calc(9/10 * 100%);
+    }
+  }
+  .lg\:w-\[90\%\] {
+    @media (width >= 64rem) {
+      width: 90%;
     }
   }
   .lg\:w-\[95\%\] {
@@ -625,6 +742,11 @@
       text-align: start;
     }
   }
+  .lg\:text-\[17px\] {
+    @media (width >= 64rem) {
+      font-size: 17px;
+    }
+  }
   .lg\:text-\[20px\] {
     @media (width >= 64rem) {
       font-size: 20px;
@@ -648,6 +770,12 @@
   .lg\:text-\[65px\] {
     @media (width >= 64rem) {
       font-size: 65px;
+    }
+  }
+  .lg\:leading-\[1\.2\] {
+    @media (width >= 64rem) {
+      --tw-leading: 1.2;
+      line-height: 1.2;
     }
   }
   .lg\:text-\[px\] {
